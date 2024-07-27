@@ -34,21 +34,6 @@ As I use this approach I will continue to tweak the template as I find some prom
 
 - **Security Features**
   - NO HARDCODING SECRETS, incorporate variables
-    
-### Requirements
-- Functional
-- USER STORY 1
-- USER STORY 2
-- USER STORY 3
-- USER STORY N
-- Technical Requirements
-- Follow these reference materials (e.g., swagger docs)
-- Script is in Python, PEP8 standards for formatting.
-- Code has verbose, descriptive, comments
-- Code has robust error logging and debugging features
-- Name file in this way... "XYZ..."
-- Security Features
-- NO HARDCODE + KEYS IN HEADER
 
 ### Deployment Considerations
 - APPSCRIPT VS LOCAL VS LAMBDA VS TINES VS WHATEVER
