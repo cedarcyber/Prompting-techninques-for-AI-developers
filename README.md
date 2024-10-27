@@ -7,6 +7,11 @@ One can leverage the prompt template and fill in the details of their desired ou
 
 As I use this approach I will continue to tweak the template as I find some prompting techniques to yield better results.
 
+The general flow that I follow...
+
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/37093e7e-a624-40b2-8790-111a03636756">
+
+
 --------------------------------------------------------------------------------
 ##### Template
 #### <OBJECTIVE NAME>
