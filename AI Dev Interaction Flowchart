@@ -1,0 +1,23 @@
+ %% MermaidJS code for sequence diagram referenced in README
+
+sequenceDiagram
+    participant User as User
+    participant IDE as IDE
+    participant LLM as LLM (Large Language Model)
+    
+    User->>LLM: Submit crafted prompt to develop script/program
+    LLM-->>User: Provides initial code response
+    
+    User->>IDE: Store prompt in IDE for reuse/update
+    
+    loop Refine Code with Error Messages
+        User->>LLM: Send error messages or feedback
+        LLM-->>User: Sends refined code
+        User->>IDE: Update prompt in IDE (if needed)
+    end
+    
+    alt Exceeds token limits/context lost
+        User->>LLM: Start new chat for fresh context
+        User->>LLM: Submit refined prompt with attachments (current code)
+        LLM-->>User: Provides refined code based on attachments
+    end
